@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EmploySalarryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SinglePostController;
 use Illuminate\Support\Facades\Route;
@@ -29,5 +30,16 @@ Route::get('/spostHome/blogHome', [SinglePostController::class, 'blog2']);
 // single post database
 Route::get('/spostdatabase', [SinglePostController::class, 'spost3']);
 Route::get('/spostdatabase/blogDatabase', [SinglePostController::class, 'blog3']);
+// single post android
+Route::get('/spostAndroid', [SinglePostController::class, 'spost4']);
+Route::get('/spostAndroid/blogAndroid', [SinglePostController::class, 'blog4']);
+// single post design
+Route::get('/spostDesign', [SinglePostController::class, 'spost5']);
+Route::get('/spostDesign/blogDesign', [SinglePostController::class, 'blog5']);
+// end single post router
+
+// Salary data Router
+Route::get('/EmployeSalarry', [EmploySalarryController::class, 'salarry']);
+Route::get('/EmployeSalarry/Form', [EmploySalarryController::class, 'form']);
 
 

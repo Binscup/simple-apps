@@ -10,7 +10,7 @@
                     <!--==== Portfolio Filters ====-->
                     <div class="items">
                         <h1>Project</h1>
-                        <a href="/singlepost/blog" type="button" class="btn btn-icon btn-info" >See next</a>
+                        <a href="/spostHome/blogHome" type="button" class="btn btn-icon btn-info" >See next</a>
                     </div>
                     <br>
                     <br>

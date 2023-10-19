@@ -2,7 +2,7 @@
     <aside id="sidebar-wrapper">
       <div class="sidebar-brand">
         <a href="index.html">  <span
-            class="logo-name">stackerbar</span>
+            class="logo-name">emplodev</span>
         </a>
       </div>
       <ul class="sidebar-menu">
@@ -18,8 +18,8 @@
         <li class="menu-header">Features</li>
    
       
-        <li><a class="nav-link" href="blank.html"><i data-feather="file"></i><span>Ready Stock</span></a></li>
-        <li><a class="nav-link" href="blank.html"><i data-feather="grid"></i><span>Tables</span></a></li>
+        <li><a class="nav-link" href="blank.html"><i data-feather="file"></i><span>Data table</span></a></li>
+        <li><a class="nav-link" href="/EmployeSalarry"><i data-feather="grid"></i><span>Employ salarry</span></a></li>
        
       </ul>
     </aside>
